@@ -32,4 +32,7 @@ http://happypeter.github.com/lgcb（peter的网站）
      git init 先建立一个git仓库
      git add +需要跟踪的文件名
      git commit -a -m "first version"创建一个版本
-    __以后每次更新都创建一个版本 输入tig 可以查看版本号做需要的修改__ 
+    __以后每次更新都创建一个版本 输入tig 可以查看版本号做需要的修改__
+     git commit -a -m  ==  git ci
+     git throw 还原回上次记录
+     git throwh 删除第一个版本或者说补丁 
