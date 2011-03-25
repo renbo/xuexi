@@ -1,4 +1,4 @@
-# VIM                      markdown(笔记格式) 
+ # VIM                      markdown(笔记格式)   unzip解压
 :h "帮助"
 :wq"保存"
 :w__ 加文件名__.c    
@@ -20,7 +20,8 @@ http://happypeter.github.com/lgcb（peter的网站）
      vim xx.md
      markdown xx.md > xx.html
      firefox xx.html
-## tig				     
+## tig
+      tar zxvf 加要解压的文件名
       ./configure
       make
       sudo make install
@@ -40,6 +41,11 @@ http://happypeter.github.com/lgcb（peter的网站）
      a移动到光标后一位插入 i移动到光标前一位插入
      o移动到下一行的第一位 O移动到当前行的第一位			
      G移动到末尾    y拷贝 yy拷贝一行                                                
+##  在home下 建立vim的配置文件  vim .vimrc
+    :set nu "显示行号"
+     set autoindent
+###  script"脚本"
+     脚本语言是解释性语言
 
 
                    
