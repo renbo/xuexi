@@ -1,15 +1,15 @@
 # VIM                      markdown(笔记格式) 
-:h (帮助) 
-:wq(保存)
+:h "帮助"
+:wq"保存"
 :w__ 加文件名__.c    
-:q!(不保存退出)
+:q!"不保存退出"
 vimtutor   进入vim的帮助学习
-cp(复制) aa 复制成bb
-## vim（执行） 也可用作创建文件* .c   
-  chmod(修改)   chmod +x   可执行权限
-mkdir(创建文件夹)  touch(创建文件) 
-mv(为文件或目录改名，或将文件由一个目录移入另一个目录中) 文件名 ..   移动到上一个文件夹
-man  （帮助）     
+cp"复制" aa 复制成bb
+## vim"执行" 也可用作创建文件* .c   
+  chmod"修改"   chmod +x   可执行权限
+mkdir"创建文件夹"  touch"创建文件" 
+mv"为文件或目录改名，或将文件由一个目录移入另一个目录中" 文件名 ..   移动到上一个文件夹
+man  "帮助"     
 cd cd~ cd ../.. cd home/xwp/  几种跳转方式
 ### pkg 
    sudo apt-get install git-core
@@ -28,11 +28,18 @@ http://happypeter.github.com/lgcb（peter的网站）
 ### diff 
       diff -u 原文件 更新文件 >补丁名.diff
       patch 原文件+更新的diff  可直接更新		
-#### git 
+#### git
      git init 先建立一个git仓库
      git add +需要跟踪的文件名
      git commit -a -m "first version"创建一个版本
     __以后每次更新都创建一个版本 输入tig 可以查看版本号做需要的修改__
      git commit -a -m  ==  git ci
      git throw 还原回上次记录
-     git throwh 删除第一个版本或者说补丁 
+     git throwh 删除第一个版本或者说补丁
+     A移动到最后一位插入  I移动到第一位插入
+     a移动到光标后一位插入 i移动到光标前一位插入
+     o移动到下一行的第一位 O移动到当前行的第一位			
+     G移动到末尾    y拷贝 yy拷贝一行                                                
+
+
+                   
