@@ -40,12 +40,11 @@ http://happypeter.github.com/lgcb（peter的网站）
      A移动到最后一位插入  I移动到第一位插入
      a移动到光标后一位插入 i移动到光标前一位插入
      o移动到下一行的第一位 O移动到当前行的第一位			
-     G移动到末尾    y拷贝 yy拷贝一行                                                
+     G移动到末尾    y拷贝 yy拷贝一行     
+     git的配置文件     .gitconfig
 ##  在home下 建立vim的配置文件  vim .vimrc
     :set nu "显示行号"
      set autoindent
 ###  script"脚本"
      脚本语言是解释性语言
-
-
-                   
+     sudo apt-get install ctags            
