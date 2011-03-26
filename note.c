@@ -68,11 +68,13 @@ default = current
 ###  script"脚本"
      脚本语言是解释性语言
      sudo apt-get install ctags
+     ctags "标签 "
      ctags+后缀为.c的文件 作用是编程C时的一种快捷查找补齐的插件
 ### 编辑vim的快捷键
     进入.vim下的snippets的c.snippets
     先＃***做个快捷键的说明
     snippets 快捷键
      Tab   快捷键全名
-     ctrl+n 自动补齐  ctrl+]  ctrl+o在vim界面下查看函数定义
-
+     ctrl+n 自动补齐  ctrl+]  ctrl+o在命令界面下查看函数定义
+     git checkout+版本号  恢复到版本号的状态并删除之前的版本
+     插入模式下 ctrl+x+l 补齐全行  ctrl+x+k 补齐任意英文单词
