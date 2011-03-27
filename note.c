@@ -77,7 +77,7 @@ default = current
      Tab   快捷键全名
 ##  写代码的快捷键     
      ctrl+n 自动补齐  ctrl+]  ctrl+o在命令界面下查看函数定义
-     git checkout+版本号  恢复到版本号的状态并删除之前的版本
+     git checkout+版本号-b tmp  恢复到版本号的状态
      插入模式下 ctrl+x+l 补齐全行  ctrl+x+k 补齐任意英文单词
      ctrl+x+f 
      set spell查错     /,ss 
