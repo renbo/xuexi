@@ -79,6 +79,12 @@ default = current
      ctrl+n 自动补齐  ctrl+]  ctrl+o在命令界面下查看函数定义
      插入模式下 ctrl+x+l 补齐全行  ctrl+x+k 补齐任意英文单词
      ctrl+x+f 
-     set spell查错     /,ss 
+     set spell查错     /,ss                         branch=br 
      git checkout+版本号-b tmp 给当前版本做个分支tmp  git branch查看分支
      git branch -D tmp 删除分支tmp
+## 查找文件
+    locate+文件名 不能查找刚创建的文件  updatedb更新locate库
+    find .|grep 要查找的文件名
+### bash脚本
+    echo输出的意思跟printf一个意思
+    vim file.sh 
