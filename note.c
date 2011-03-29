@@ -84,7 +84,15 @@ default = current
      git branch -D tmp 删除分支tmp
 ## 查找文件
     locate+文件名 不能查找刚创建的文件  updatedb更新locate库
-    find .|grep 要查找的文件名
+    find .|grep 要查找的文件
+##  关闭死锁的进程
+    ps 显示当前进程  ps aux 显示所有进程
+    ps aux|grep -i+名  意思是查找所有的进程名
+    kill -9 +进程号  强制杀死死锁的进程
 ### bash脚本
     echo输出的意思跟printf一个意思
-    vim file.sh 
+    vim file.sh        输出hello  echo hello
+    chmod +x flie.sh   变成可执行文件
+    ./file.sh 执行
+    hello        (最简单的bash编写)
+    `ls`的意思是查看当前目录下所有文件
