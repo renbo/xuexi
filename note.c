@@ -12,8 +12,8 @@ mv"为文件或目录改名，或将文件由一个目录移入另一个目录�
 man  "帮助"     
 cd cd~ cd ../.. cd home/xwp/  几种跳转方式
 ### pkg 
-   sudo apt-get install git-core
-   wget 122.115.61.189/tmp/cc-note
+    sudo apt-get install git-core
+    wget 122.115.61.189/tmp/cc-note
 http://happypeter.github.com/lgcb（peter的网站）
 /bin__安装目录__把所要安装的文件chmod +x  mv 到 /bin 下面
 ### these;
@@ -89,10 +89,14 @@ default = current
     ps 显示当前进程  ps aux 显示所有进程
     ps aux|grep -i+名  意思是查找所有的进程名
     kill -9 +进程号  强制杀死死锁的进程
-### bash脚本
+### bash脚本  写bash脚本最重要的是空格
     echo输出的意思跟printf一个意思
     vim file.sh        输出hello  echo hello
     chmod +x flie.sh   变成可执行文件
     ./file.sh 执行
     hello        (最简单的bash编写)
     `ls`的意思是查看当前目录下所有文件
+    ldd 
+    sudo apt-get install libc6-dev
+    vimdiff 文件名 文件名 比较两个文件的不同
+    ctrl+v 可视块 zf 建立一个折叠 zx 打开折叠 zc 回到折叠状态
